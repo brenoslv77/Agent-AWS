@@ -1,0 +1,19 @@
+
+{
+  "name": "agent-aws",
+  "version": "1.0.0",
+  "description": "Chat web integrado ao Amazon Bedrock AgentCore",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@aws-sdk/client-bedrock-agentcore": "^3.1152.0",
+    "express": "^4.21.2",
+    "dotenv": "^16.4.7"
+  }
+}
